@@ -26,7 +26,7 @@ def generateCode():
 #Label for the window
 headingFrame = Frame(wn,bg="azure",bd=5)
 headingFrame.place(relx=0.15,rely=0.05,relwidth=0.7,relheight=0.1)
-headingLabel = Label(headingFrame, text="Generate QR Code with Hamara QR Code Generator😎😊", bg='azure', font=('Times',20,'bold'))
+headingLabel = Label(headingFrame, text="Generate QR Code with HamaraQRCodeGenerator😊", bg='azure', font=('Times',20,'bold'))
 headingLabel.place(relx=0,rely=0, relwidth=1, relheight=1)
 
 #Taking the input of the text or URL to get QR code 
